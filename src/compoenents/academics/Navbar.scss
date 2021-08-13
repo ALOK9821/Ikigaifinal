@@ -1,0 +1,26 @@
+.nbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // background-color: #1f1a25;
+    background-color: black;
+    list-style: none;
+    height: 10vh;
+    padding: 2rem;
+}
+.nbarcontent{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    list-style: none;
+    // border: 2px solid white;
+}
+.nbarcontent li{
+    cursor: pointer;
+    padding-top: 0.5rem;
+   &:hover{
+       border-top: 2px solid gold;
+   }
+}

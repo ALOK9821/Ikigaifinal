@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap');
+.main-info{
+    // border: 2px solid white;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:    url(../../assets/blackbg3.jpg);
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    h1{
+        font-family: 'Noto Serif', serif;
+        color: rgb(164, 152, 86);
+    }
+    .typed-text{
+        font-size: larger;
+        font-family: 'Noto Serif', serif;
+    }
+}
