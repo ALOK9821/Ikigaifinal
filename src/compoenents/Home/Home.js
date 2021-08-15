@@ -27,12 +27,13 @@ const Home = () => {
             <div className="cardp">
             <CardPanel/>
             </div>
-            <div className="testi">
-                <Testimonial/>
-            </div>
             <div className="js">
                 <Joinus/>
             </div>
+            <div className="testi">
+                <Testimonial/>
+            </div>
+          
             
           </div> 
         

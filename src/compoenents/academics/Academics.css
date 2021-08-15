@@ -13,12 +13,22 @@
     height: 90vh;
     color: white;
 }
-/* -----------------------------Card holder------------------------------------------------- */
-.cardholder{
-    height: 50vh;
-    color: white;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* -----------------------------Features------------------------------------------------- */
+
+ /* {
+     margin:0;
+     padding:0;
+      box-sizing:border-box;
+font-family: 'Mulish', sans-serif;
+      
+} */
+    
+ .feature{
+      background: #F0F5FF;
+  display:flex;
+     height:100vh;
+     flex-direction:column;
+     justify-content:center;
+      align-items:center;
+ }
+    

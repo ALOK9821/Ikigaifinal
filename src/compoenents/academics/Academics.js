@@ -1,8 +1,9 @@
 import React from 'react'
 import Button1 from '../../styled compponents/Buttons/Button1'
+import Timeline from  "./Timeline"
 import Info from '../Info'
 import "./Academics.css"
-import Cardpanel1 from './Cardpanel1'
+import Features from './Cardpanel/Features'
 
 const Academics = () => {
     return (
@@ -16,11 +17,15 @@ const Academics = () => {
            />
         </div>
         <div className="cardholder">
-            <Cardpanel1/>
+          <Timeline/>
+        </div>
+        <div className="feature">
+            <Features/>
         </div>
         <div className="infoholder">
             <Info/>
         </div>
+       
         </>
     )
 }
