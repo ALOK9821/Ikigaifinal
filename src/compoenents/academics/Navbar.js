@@ -11,7 +11,7 @@ const Navbar = () => {
                 <ul className="nbarcontent" >
                   <li> <Link to="/" style={{textDecoration:"none",color:"white"}} >Home </Link></li> 
                     <Link to="/academics" style={{textDecoration:"none",color:"white"}} ><li>Academics </li></Link>
-                    <li>programs</li>
+                    <li> <Link to="/industry" style={{textDecoration:"none",color:"white"}} >Industry </Link></li> 
                     <li>Institute</li>
                 </ul>
             </div>

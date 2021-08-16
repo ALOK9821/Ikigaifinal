@@ -11,6 +11,9 @@
     background-color: #F0F5FF;
     height: 80vh;
 }
+.container-fluid img{
+    border-radius: 50%;
+}
 
 
 .box {

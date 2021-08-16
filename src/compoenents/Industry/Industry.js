@@ -1,11 +1,7 @@
 import React from 'react'
 import Button1 from '../../styled compponents/Buttons/Button1'
-import Timeline from  "./Timeline"
-import Info from '../Info'
-import "./Academics.scss"
-import Features from './Cardpanel/Features'
-import Card3 from "../../styled compponents/Cards/Card3"
-const Academics = () => {
+import "./Industry.scss"
+const Industry = () => {
     return (
         <>
         <div className="Academics">
@@ -91,17 +87,19 @@ const Academics = () => {
                   <a href="#">View case study </a>
               </div>
           </div>
-    
-      </div>
-       <div className="joinnow">
+          <div className="joinnow">
            <h1>Join Us</h1>
            <br /><br />
          <button>
              <h2>Get Started</h2>
          </button>
        </div>
+    
+      </div>
+       
         </>
+   
     )
 }
 
-export default Academics
+export default Industry
