@@ -24,7 +24,8 @@ font-family: 'Mulish', sans-serif;
 } */
     
  .feature{
-      background: #F0F5FF;
+    //   background: #F0F5FF;
+    background-color: #0d101e;
   display:flex;
      height:100vh;
      flex-direction:column;
@@ -53,4 +54,54 @@ font-family: 'Mulish', sans-serif;
         }
     }
    
+}
+// -------------------programs names---------------------------------------
+.programnames{
+    height: 100vh;
+    background-color: #0d101e;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    .programcard{
+            //  background-color: #092834;
+            background-color:#202330;
+            border: 2px solid rgba(0,151,251,0.15);
+             width: 35%;
+             height: 25%;
+             border-radius: 10px 30px 10px 30px;
+             color: white;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-evenly;
+             align-items: center;
+            //  border-radius: 1.5rem;
+            transition: 0.4s;
+            &:hover{
+                box-shadow:  0px 0px 24px 0px rgba(62, 161, 255, 1);
+            }
+        }
+}
+// --------------------program details--------------------------------
+.programdetails{
+    background-color: #0d101e;
+    color: white;
+    .firstprogram{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+        .leftside{
+            width: 40%;
+            background-color:#202330;
+            border: 2px solid #73c4fa;
+            height: 60vh;
+        }
+        .rightside{
+            line-height: 2rem;
+            width: 50%;
+            text-align: left;
+        }
+    }
 }
