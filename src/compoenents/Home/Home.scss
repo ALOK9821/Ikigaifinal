@@ -20,3 +20,14 @@
         font-family: 'Noto Serif', serif;
     }
 }
+// info cards-----------------------------------------
+
+.infocards {
+    width: 100vm;
+    min-height: 100vh;
+    background-color: #F0F5FF;
+    // position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

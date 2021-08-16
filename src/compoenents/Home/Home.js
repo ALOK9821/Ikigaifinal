@@ -5,6 +5,7 @@ import "./Home.scss"
 import CardPanel from '../../styled compponents/Cards/CardPanel';
 import Testimonial from './Testimonials/Testimonial';
 import Joinus from '../Home/Joinus/Joinus';
+import Card3 from '../../styled compponents/Cards/Card3';
 const Home = () => {
     return (
         <>
@@ -30,10 +31,15 @@ const Home = () => {
             <div className="js">
                 <Joinus/>
             </div>
+            <div className="infocards">
+               <Card3/>
+               <Card3/>
+               <Card3/>
+           </div>
             <div className="testi">
                 <Testimonial/>
             </div>
-          
+         
             
           </div> 
         
