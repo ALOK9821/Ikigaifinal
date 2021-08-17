@@ -11,10 +11,10 @@ const Home = () => {
         <>
             <div className="header-wrapper">
            <div className="main-info">
-                <h1>Digital Whole Learning of AI for</h1> <br />
+                <h1> Simplified Learnings in New Technologies for</h1> <br />
                 <Typed 
                 className="typed-text"
-                strings={["Industry and Academia","Create Technology Leaders For Tomorrow"]}
+                strings={["Individuals","Academics","Industry","Goverment"]}
                 typeSpeed={40}
                 backSpeed={60}
                 loop
@@ -25,22 +25,55 @@ const Home = () => {
                 />
                 
             </div>
+
             <div className="cardp">
             <CardPanel/>
             </div>
-            <div className="js">
-                <Joinus/>
-            </div>
+            <br />
+          <hr />
+          <br />
             <div className="infocards">
-               <Card3/>
-               <Card3/>
-               <Card3/>
+                <h1>How Ikigai Lab is helping you <br /> Achieve your goals</h1>
+                <div>
+                    <hr />
+                <Card3
+               title="Industrial Case Studies"
+               content="All programs are equipped with real case studies to give you a holistic view 
+               of the problem and its solution
+               "
+               />
+                 <Card3
+               title="Capstone Based Learnings"
+               content="Capstone Projects at the end of each program to ensure that you can 
+               apply your learnings.
+               "
+               />
+                </div>
+             <div>
+             <Card3
+               title=" Top Associations"
+               content="Association with institutions like IIT Kanpur, IIT Patna, GLA University, IIT Ropar, 
+               etc.
+               "
+               />
+                 <Card3
+               title="Applied Research Ecosystem"
+               content="Ecosystem of research labs across seven IITs to bring Industry and 
+               Academia Together"
+               />
+             </div>
+              
            </div>
+           <br /><hr /><br />
+          
             <div className="testi">
                 <Testimonial/>
             </div>
          
-            
+            <div className="js">
+                <Joinus/>
+            </div>
+            <br /><hr /><br />
           </div> 
         
         </>

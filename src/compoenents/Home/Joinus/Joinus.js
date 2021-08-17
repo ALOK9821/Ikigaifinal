@@ -6,7 +6,7 @@ const Joinus = () => {
         
            <div className="joinus">
              <br />
-          <h1>Join Us Section Heading</h1>
+          <h1>Join Ikigai Team and make an impact <br /> On the world</h1>
           <br />
            <div className="cards-list">
   
@@ -26,6 +26,14 @@ const Joinus = () => {
     </div>
   </div>
   
+  <div className="card 3">
+    <div className="card_image">
+      <img src="https://i.redd.it/b3esnz5ra34y.jpg" />
+    </div>
+    <div className="card_title title-white">
+      <p>Campus Mentor</p>
+    </div>
+  </div>
   <div className="card 3">
     <div className="card_image">
       <img src="https://i.redd.it/b3esnz5ra34y.jpg" />

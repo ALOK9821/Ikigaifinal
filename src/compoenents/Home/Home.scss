@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-wrapper{
+    background-color: #F0F5FF;
+    hr{
+        color: #F0F5FF;
+    }
+}
 .main-info{
     // border: 2px solid white;
     color: white;
@@ -7,16 +18,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image:    url(../../assets/blackbg3.jpg);
-    background-size:     cover;                    
-    background-repeat:   no-repeat;
-    background-position: center center;  
+    background-color: #0d101e;
+    // background-image:    url(../../assets/blackbg3.jpg);
+    // background-size:     cover;                    
+    // background-repeat:   no-repeat;
+    // background-position: center center;  
     h1{
         font-family: 'Noto Serif', serif;
         color: rgb(164, 152, 86);
+        font-size: 48px;
+        text-shadow: 2px 8px 40px #3485e4;
     }
     .typed-text{
-        font-size: larger;
+        font-size: 45px;
         font-family: 'Noto Serif', serif;
     }
 }
@@ -29,5 +43,32 @@
     // position: relative;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-evenly;
+    div{
+        // background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    h1{
+        font-family: 'Noto Serif', serif;
+        color: #012970;
+        font-weight: bolder;
+        font-size: 48px;
+        font-weight: 700;
+    }
+}
+
+
+// media query
+
+@media (max-width:500px){
+    .infocards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 120rem;
+}
 }

@@ -10,22 +10,20 @@
     // flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 90vh;
+    height: 70vh;
     color: #F0F5FF;
+    // border: 2px solid white;
     h1{
-        text-shadow: 2px 8px 40px #3485e4;
+        font-size: 48px;
+        text-shadow: 0px 0px 20px #3485e4;
+    }
+    p{
+        font-size: 20px;
     }
 }
 /* -----------------------------Features------------------------------------------------- */
 
- /* {
-     margin:0;
-     padding:0;
-      box-sizing:border-box;
-font-family: 'Mulish', sans-serif;
-      
-} */
-    
+
  .feature{
     //   background: #F0F5FF;
     background-color: #0d101e;
@@ -60,36 +58,55 @@ font-family: 'Mulish', sans-serif;
 }
 // -------------------programs names---------------------------------------
 .programnames{
-    height: 100vh;
+    height: 90vh;
     background-color: #0d101e;
-
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    // border: 2px solid white;
+    padding: 2rem;
+    .progholder{
+        // border: 2px solid white;
+        width:75%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        // align-items: center;
+        flex-wrap: wrap;
+    }
     .programcard{
             //  background-color: #092834;
             background-color:#202330;
-            border: 2px solid rgba(0,151,251,0.15);
-             width: 35%;
-             height: 25%;
-             border-radius: 10px 30px 10px 30px;
+            padding: 2rem;
+             width: 48%;
+             height: 30%;
              color: white;
              display: flex;
              flex-direction: column;
              justify-content: space-evenly;
-             align-items: center;
-            //  border-radius: 1.5rem;
-            transition: 0.4s;
-            &:hover{
-                box-shadow:  0px 0px 24px 0px rgba(62, 161, 255, 1);
-            }
+            //  align-items: center;
+             border-radius: 1rem;
+             text-align: left;
+             h3{
+                 font-size: 25px;
+             }
+             p{
+                 font-size: 15px;
+             }
         }
+      
 }
+
 // --------------------program details--------------------------------
 .programdetails{
     background-color: #0d101e;
     color: white;
+    h2{
+        font-size: 35px;
+    }
+    p{
+        font-size: 20px;
+    }
     .firstprogram{
         display: flex;
         justify-content: space-evenly;
@@ -131,3 +148,4 @@ font-family: 'Mulish', sans-serif;
         }
     }
 }
+// --------------media queries
