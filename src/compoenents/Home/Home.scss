@@ -27,36 +27,59 @@
         font-family: 'Noto Serif', serif;
         color: rgb(164, 152, 86);
         font-size: 48px;
-        text-shadow: 2px 8px 40px #3485e4;
+        // text-shadow: 2px 8px 40px #3485e4;
     }
     .typed-text{
         font-size: 45px;
         font-family: 'Noto Serif', serif;
     }
 }
-// info cards-----------------------------------------
-
-.infocards {
-    width: 100vm;
-    min-height: 100vh;
-    background-color: #F0F5FF;
-    // position: relative;
+// property cards-----------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
+.propertiesh{
+    // border: 2px solid white;
+    height: 62vh;
+    background-color: #fff;
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    div{
-        // background-color: black;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
+    align-items: center;
+    h4{
+        font-size: 40px;
+        font-weight: lighter;
+        
     }
-    h1{
-        font-family: 'Noto Serif', serif;
-        color: #012970;
-        font-weight: bolder;
-        font-size: 48px;
-        font-weight: 700;
+    .propertycardholderh{
+        // border: 2px solid white;
+        height: 80%;
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .propertycardh{
+           background-color: white;
+            // border: 2px solid black;
+            height: 90%;
+            width: 24%;
+            border-radius: .5rem;
+            text-align: left;
+           padding: 2rem;
+           border-bottom: 5px solid #5da9dc;
+           box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
+           h2{
+               font-size: 25px;
+               line-height: 45px;
+               font-family: 'Playfair Display', serif;
+               color: #269fb1;
+           }
+         
+           p{
+               font-size: 20px;
+               color: grey;
+               font-weight: 200;
+               font-family: 'Playfair Display', serif;
+           }
+        }
     }
 }
 
