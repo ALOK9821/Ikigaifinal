@@ -6,7 +6,10 @@ const Joinus = () => {
         
            <div className="joinus">
              <br />
-          <h1>Join Ikigai Team <br /> & <br /> Make an impact  On the world</h1>
+             <div className="joinustitle">
+             <h1>Join Ikigai Team </h1> <h2> Make an impact  On the world</h2>
+             </div>
+          
           <br />
            <div className="cards-list">
   

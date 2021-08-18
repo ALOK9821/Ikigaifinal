@@ -47,10 +47,7 @@ your team!
           </div>
      
        <div className="statsi">
-           <div className="statholderi">
-               <h1>Statistics </h1>
-               <p>some sentence describing stats</p>
-           </div>
+           
            <div className="statcontenti">
                <div className="statdata">
                    <h1> 83%</h1>
@@ -79,47 +76,49 @@ your team!
            </div>
         </div>    
           <div className="propertiesi">
+              <div className="journey">
+                  <h1>How we are transforming your workforce</h1>
+              </div>
            <div className="propertycardholderi">
-               <div className="propertycard">
+               <div className="propertycardi">
                    <h2>Identifying the Business Need
 </h2>
-                  <hr />
                    <br />
                    {/* <p>Students have the opportunity to work on real-life projects for companies.</p> */}
                </div>
-               <div className="propertycard">
+               <div className="propertycardi">
                    <h2>Defining the learning objectives</h2>
-                   <hr />
+        
                    <br />
                    {/* <p>Students can learn from the best in the industry at their own pace with their college education.</p> */}
                </div>
-               <div className="propertycard">
+               <div className="propertycardi">
                    <h2>Customized Learning Path</h2>
-                   <hr />
+                   
                    <br />
                    {/* <p> Top Students and their projects have the chance to be featured on our blog, Github, or even the Ikigai Lab website.</p> */}
                </div>
-               <div className="propertycard">
+               <div className="propertycardi">
                    <h2> Industry Practitioner’s & Experts</h2>
-                   <hr />
+                   
                    <br />
                    {/* <p>students are able to enter the market of new technologies with an in-demand skill set that will make them stand out from the crowd.</p> */}
                </div>
-               <div className="propertycard">
+               <div className="propertycardi">
                    <h2> Project Based Learning</h2>
-                   <hr />
+                   
                    <br />
                    {/* <p>students are able to enter the market of new technologies with an in-demand skill set that will make them stand out from the crowd.</p> */}
                </div>
-               <div className="propertycard">
+               <div className="propertycardi">
                    <h2> Live Instructor’s Support</h2>
-                   <hr />
+                   
                    <br />
                    {/* <p>students are able to enter the market of new technologies with an in-demand skill set that will make them stand out from the crowd.</p> */}
                </div>
-               <div className="propertycard">
+               <div className="propertycardi">
                    <h2>  Progress Reports</h2>
-                   <hr />
+                   
                    <br />
                    {/* <p>students are able to enter the market of new technologies with an in-demand skill set that will make them stand out from the crowd.</p> */}
                </div>
@@ -135,8 +134,8 @@ your team!
                   
                   <h3> Custom Made Programs</h3>
                   <h2> Every Organization is different so our programs also. </h2> <br />
-                  <p>We create programs to make your business more successful <br />Every company has its own unique workforce and needs. Ikigai Lab creates tailor-made 
-learning programs for each organization.</p>
+                  <p> - We create programs to make your business more successful <br /> - Every company has its own unique workforce and needs. Ikigai Lab creates &nbsp;&nbsp; tailor-made 
+ learning programs for each organization.</p>
                   <a href="#">View  </a>
               </div>
           </div>
@@ -145,7 +144,7 @@ learning programs for each organization.</p>
                   
                   <h3>Outcome Based Learning</h3>
                   <h2>All the programs have specific learning outcomes.</h2> <br />
-                  <p>Participants will be able to come up with the solutions for business problems. <br />Participants will be able to come up with the real business use cases.</p>
+                  <p>- Participants will be able to come up with the solutions for business &nbsp;&nbsp; Problems. <br /> - Participants will be able to come up with the real business use cases.</p>
                   <a href="#">View  </a>
               </div>
               <div className="leftside">
@@ -161,8 +160,8 @@ learning programs for each organization.</p>
                   
                   <h3>Progress Reports</h3>
                   <h2> Improve the performance and learning by tracking their performances</h2> <br />
-                  <p>See the overall results of the programs in a report <br />
-                  Results of quizzes, assignments of all the participants on a regular basis</p>
+                  <p> - See the overall results of the programs in a report <br />
+                  - Results of quizzes, assignments of all the participants on a regular basis</p>
                   <a href="#">View </a>
               </div>
           </div>

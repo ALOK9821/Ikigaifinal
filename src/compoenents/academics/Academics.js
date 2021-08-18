@@ -54,10 +54,7 @@ leverage Web 3.0 in their teachings.</p>
           </div>
      
        <div className="stats">
-           <div className="statholder">
-               <h1>Statistics Heading</h1>
-               <p>some sentence describing stats</p>
-           </div>
+          
            <div className="statcontent">
                <div className="statdata">
                    <h1>45%</h1>
@@ -122,8 +119,8 @@ that will make them stand out from the crowd.</p>
               </div>
               <div className="rightside">
                   
-                  <h5>case study</h5>
-                  <h2> Learning through practice</h2> <br />
+                  {/* <h5>case study</h5> */}
+                  <h2> Learning through practice</h2> 
                   <p>By combining online lectures and real-life projects students have the 
 opportunity to immediately put theoretical knowledge into practice. Students do practice on real 
 industrial case studies.</p>
@@ -133,8 +130,8 @@ industrial case studies.</p>
           <div className="firstprogram">
           <div className="rightside">
                   
-                  <h5>case study</h5>
-                  <h2>Directly from the Data Scientists to your students</h2> <br />
+                  {/* <h5>case study</h5> */}
+                  <h2>Directly from the Data Scientists to your students</h2> 
                   <p>With the experience of professionals in the 
 field of AI and Deep Learning. Training is available in the form of live instructor-led courses and 1-on1 mentoring.</p>
                   <a href="#">View  </a>
@@ -150,8 +147,8 @@ field of AI and Deep Learning. Training is available in the form of live instruc
               </div>
               <div className="rightside">
                   
-                  <h5>case study</h5>
-                  <h2> Applied Research Ecosystem</h2> <br />
+                  {/* <h5>case study</h5> */}
+                  <h2> Applied Research Ecosystem</h2> 
                   <p>Connecting Academia with Industry. Helping academic research in 
 translation. Academics should lead industry</p>
                   <a href="#">View </a>
