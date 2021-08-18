@@ -53,7 +53,65 @@ leverage Web 3.0 in their teachings.</p>
           </div>
           </div>
      
-     
+       <div className="stats">
+          
+           <div className="statcontent">
+               <div className="statdata">
+                   <h1>45%</h1>
+                   <hr />
+                   <h6>some data</h6>
+               </div>
+               <div className="statdata">
+                   <h1>45%</h1>
+                   <hr />
+                   <h6>some data</h6>
+               </div>
+               <div className="statdata">
+                   <h1>45%</h1>
+                   <hr />
+                   <h6>some data</h6>
+               </div>
+               <div className="statdata">
+                   <h1>45%</h1>
+                   <hr />
+                   <h6>some data</h6>
+               </div>
+           </div>
+        </div>    
+          <div className="properties">
+           <div className="propertycardholder">
+               <div className="propertycard">
+                   <h2>Transformative</h2>
+                  <hr />
+                   <br />
+                   <p>Students have the opportunity to work on real-life projects for companies.
+</p>
+               </div>
+               <div className="propertycard">
+                   <h2>Accessible</h2>
+                   <hr />
+                   <br />
+                   <p>Students can learn from the best in the industry at their own pace with their college 
+education.</p>
+               </div>
+               <div className="propertycard">
+                   <h2>Innovative</h2>
+                   <hr />
+                   <br />
+                   <p> Top Students and their projects have the chance to be featured on our blog, Github, or 
+even the Ikigai Lab website.
+</p>
+               </div>
+               <div className="propertycard">
+                   <h2> Job Ready</h2>
+                   <hr />
+                   <br />
+                   <p>students are able to enter the market of new technologies with an in-demand skill set 
+that will make them stand out from the crowd.</p>
+               </div>
+           </div>
+       </div>
+      
       <div className="programdetails">
           <div className="firstprogram">
               <div className="leftside">
@@ -61,9 +119,9 @@ leverage Web 3.0 in their teachings.</p>
               </div>
               <div className="rightside">
                   
-                  <h5>case study</h5>
-                  <h2> Learning through practice</h2> <br />
-                  <p>TBy combining online lectures and real-life projects students have the 
+                  {/* <h5>case study</h5> */}
+                  <h2> Learning through practice</h2> 
+                  <p>By combining online lectures and real-life projects students have the 
 opportunity to immediately put theoretical knowledge into practice. Students do practice on real 
 industrial case studies.</p>
                   <a href="#">View  </a>
@@ -72,8 +130,8 @@ industrial case studies.</p>
           <div className="firstprogram">
           <div className="rightside">
                   
-                  <h5>case study</h5>
-                  <h2>Directly from the Data Scientists to your students</h2> <br />
+                  {/* <h5>case study</h5> */}
+                  <h2>Directly from the Data Scientists to your students</h2> 
                   <p>With the experience of professionals in the 
 field of AI and Deep Learning. Training is available in the form of live instructor-led courses and 1-on1 mentoring.</p>
                   <a href="#">View  </a>
@@ -89,9 +147,9 @@ field of AI and Deep Learning. Training is available in the form of live instruc
               </div>
               <div className="rightside">
                   
-                  <h5>case study</h5>
-                  <h2> Applied Research Ecosystem</h2> <br />
-                  <p>TConnecting Academia with Industry. Helping academic research in 
+                  {/* <h5>case study</h5> */}
+                  <h2> Applied Research Ecosystem</h2> 
+                  <p>Connecting Academia with Industry. Helping academic research in 
 translation. Academics should lead industry</p>
                   <a href="#">View </a>
               </div>
@@ -99,10 +157,11 @@ translation. Academics should lead industry</p>
     
       </div>
        <div className="joinnow">
-           <h1>Join Us</h1>
+           <h1>Find out how Ikigai Lab can help you <br /> in creating skill and applied research ecosystem <br /> at your 
+institution.</h1>
            <br /><br />
          <button>
-             <h2>Get Started</h2>
+             <h2>Schedule a Meeting</h2>
          </button>
        </div>
         </>

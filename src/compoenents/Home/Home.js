@@ -5,7 +5,6 @@ import "./Home.scss"
 import CardPanel from '../../styled compponents/Cards/CardPanel';
 import Testimonial from './Testimonials/Testimonial';
 import Joinus from '../Home/Joinus/Joinus';
-import Card3 from '../../styled compponents/Cards/Card3';
 const Home = () => {
     return (
         <>
@@ -29,42 +28,40 @@ const Home = () => {
             <div className="cardp">
             <CardPanel/>
             </div>
-            <br />
-          <hr />
-          <br />
-            <div className="infocards">
-                <h1>How Ikigai Lab is helping you <br /> Achieve your goals</h1>
-                <div>
-                    <hr />
-                <Card3
-               title="Industrial Case Studies"
-               content="All programs are equipped with real case studies to give you a holistic view 
-               of the problem and its solution
-               "
-               />
-                 <Card3
-               title="Capstone Based Learnings"
-               content="Capstone Projects at the end of each program to ensure that you can 
-               apply your learnings.
-               "
-               />
-                </div>
-             <div>
-             <Card3
-               title=" Top Associations"
-               content="Association with institutions like IIT Kanpur, IIT Patna, GLA University, IIT Ropar, 
-               etc.
-               "
-               />
-                 <Card3
-               title="Applied Research Ecosystem"
-               content="Ecosystem of research labs across seven IITs to bring Industry and 
-               Academia Together"
-               />
-             </div>
-              
+            <div className="propertiesh">
+              <h4>How Ikigai Lab is helping you <br /> to achieve your goals</h4>
+           <div className="propertycardholderh">
+               <div className="propertycardh">
+                   <h2>Industrial Case Studies</h2>
+                  <hr />
+                   <br />
+                   <p> All programs are equipped with real case studies to give you a holistic view 
+of the problem and its solution</p>
+               </div>
+               <div className="propertycardh">
+                   <h2>Capstone Based Learnings</h2>
+                   <hr />
+                   <br />
+                   <p>Capstone Projects at the end of each program to ensure that you can 
+apply your learnings.</p>
+               </div>
+               <div className="propertycardh">
+                   <h2>Top <br /> Associations</h2>
+                   <hr />
+                   <br />
+                   <p> Association with institutions like IIT Kanpur, IIT Patna, GLA University, IIT Ropar, 
+etc.</p>
+               </div>
+               <div className="propertycardh">
+                   <h2>Applied Research Ecosystem</h2>
+                   <hr />
+                   <br />
+                   <p> Ecosystem of research labs across seven IITs to bring Industry and 
+Academia Together</p>
+               </div>
            </div>
-           <br /><hr /><br />
+       </div>
+      
           
             <div className="testi">
                 <Testimonial/>
@@ -73,7 +70,6 @@ const Home = () => {
             <div className="js">
                 <Joinus/>
             </div>
-            <br /><hr /><br />
           </div> 
         
         </>

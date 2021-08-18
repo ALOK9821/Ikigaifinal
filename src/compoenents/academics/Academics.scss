@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +16,7 @@
     // border: 2px solid white;
     h1{
         font-size: 48px;
-        text-shadow: 0px 0px 20px #3485e4;
+        // text-shadow: 0px 0px 20px #3485e4;
     }
     p{
         font-size: 20px;
@@ -57,6 +58,7 @@
    
 }
 // -------------------programs names---------------------------------------
+
 .programnames{
     height: 90vh;
     background-color: #0d101e;
@@ -89,6 +91,7 @@
              text-align: left;
              h3{
                  font-size: 25px;
+                 
              }
              p{
                  font-size: 15px;
@@ -102,10 +105,13 @@
     background-color: #0d101e;
     color: white;
     h2{
-        font-size: 35px;
+        font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.02em;
     }
     p{
         font-size: 20px;
+        margin-top: .8rem;
     }
     .firstprogram{
         display: flex;
@@ -135,6 +141,9 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+     h1{
+        line-height: 40px;
+     }
     button{
         color: white;
         background-color:   #202330;
@@ -142,10 +151,99 @@
         height: 15%;
         width: 20%;
         border-radius: 2rem;
+        cursor: pointer;
         &:hover{
             border: 2px solid rgba(0,151,251,0.25);
             box-shadow: 0px 4px 20px rgba(0,151,251,0.25);
         }
     }
 }
-// --------------media queries
+// propersties section---------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
+.properties{
+    // border: 2px solid white;
+    height: 60vh;
+    background-color: #0d101e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .propertycardholder{
+        // border: 2px solid white;
+        height: 80%;
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .propertycard{
+        //    background-color: white;
+        background-color:#202330;
+            // border: 2px solid black;
+            height: 90%;
+            width: 24%;
+            border-radius: .5rem;
+            text-align: left;
+           padding: 2rem;
+        //    border-bottom: 5px solid #73c4fa;
+        border-bottom: 1px solid whitesmoke;
+           h2{
+               font-size: 25px;
+               line-height: 45px;
+               font-family: 'Roboto', sans-serif;
+               color: white;
+           }
+         
+           p{
+               font-size: 20px;
+               color: white;
+               font-weight: 200;
+               font-family: 'Playfair Display', serif;
+           }
+        }
+    }
+}
+//stas section
+.stats{
+    background-color: #0d101e;
+    // border: 2px solid white;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .statholder{
+        // border: 2px solid white;
+    border-top: 2px solid white;
+        height: 30%;
+        width:80%;
+        // text-align: left;
+        color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        h1{
+            font-size: 40px;
+            line-height: 55px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .statcontent{
+        // border: 2px solid white;
+        height: 80%;
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+    border-bottom: 2px solid white;
+
+        h1{
+            font-size: 60px;
+        }
+        h6{
+            font-size: 25px;
+        }
+    }
+}
