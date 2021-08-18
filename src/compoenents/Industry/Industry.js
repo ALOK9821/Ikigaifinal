@@ -50,25 +50,25 @@ your team!
            
            <div className="statcontenti">
                <div className="statdata">
-                   <h1> 83%</h1>
+                   <h1> 83<sup>%</sup></h1>
                    <hr />
                    <br />
                    <h6>Organizations admit that <br /> they are having skills gap</h6>
                </div>
                <div className="statdata">
-                   <h1>77%</h1>
+                   <h1>77<sup>%</sup></h1>
                    <hr />
                    <br />
                    <h6>Indian companies offer training <br /> to all employees</h6>
                </div>
                <div className="statdata">
-                   <h1>14%</h1>
+                   <h1>14<sup>%</sup></h1>
                    <hr />
                    <br />
                    <h6>global workforce need to switch <br /> or acquire new occupations by 2030</h6>
                </div>
                <div className="statdata">
-                   <h1>87%</h1>
+                   <h1>87<sup>%</sup></h1>
                    <hr />
                    <br />
                    <h6>executives said there <br /> are skills gap in the workforce</h6>
