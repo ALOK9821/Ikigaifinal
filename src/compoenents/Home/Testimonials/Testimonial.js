@@ -4,6 +4,7 @@ const Testimonial = () => {
     return (
         
 <div className="testim">
+  <h1>Testimonials</h1>
   <div className="container">
     
       <div className="testim-content">

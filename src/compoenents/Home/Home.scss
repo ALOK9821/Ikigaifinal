@@ -29,11 +29,17 @@
         font-size: 48px;
         // text-shadow: 2px 8px 40px #3485e4;
     }
+    @media (max-width:800px){
+        h1{
+            font-size: 25px;
+        }
+    }
     .typed-text{
         font-size: 45px;
         font-family: 'Noto Serif', serif;
     }
 }
+
 // property cards-----------------------------------------
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
 .propertiesh{
@@ -82,16 +88,41 @@
         }
     }
 }
-
+@media (max-width:500px){
+    .propertiesh{
+        height: 200vh;
+        // background-color: rebeccapurple;
+        h4{
+            font-size: 20px;
+            font-weight: lighter;
+        }
+        .propertycardholderh{
+            flex-direction: column;
+            width: 90%;
+            margin-top: 1rem;
+            justify-content: space-evenly;
+            .propertycardh{
+                width: 85%;
+                height: 25%;
+                margin-top: .5rem;
+            }
+            
+        }
+    }
+    
+}
 
 // media query
 
-@media (max-width:500px){
+@media (max-width:700px){
     .infocards{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         height: 120rem;
-}
+    }
+    .carp{
+        height: 100vh;
+    }
 }

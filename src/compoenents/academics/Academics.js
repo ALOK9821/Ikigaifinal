@@ -124,7 +124,6 @@ that will make them stand out from the crowd.</p>
                   <p>By combining online lectures and real-life projects students have the 
 opportunity to immediately put theoretical knowledge into practice. Students do practice on real 
 industrial case studies.</p>
-                  <a href="#">View  </a>
               </div>
           </div>
           <div className="firstprogram">
@@ -134,7 +133,7 @@ industrial case studies.</p>
                   <h2>Directly from the Data Scientists to your students</h2> 
                   <p>With the experience of professionals in the 
 field of AI and Deep Learning. Training is available in the form of live instructor-led courses and 1-on1 mentoring.</p>
-                  <a href="#">View  </a>
+                 
               </div>
               <div className="leftside">
                   
@@ -151,7 +150,6 @@ field of AI and Deep Learning. Training is available in the form of live instruc
                   <h2> Applied Research Ecosystem</h2> 
                   <p>Connecting Academia with Industry. Helping academic research in 
 translation. Academics should lead industry</p>
-                  <a href="#">View </a>
               </div>
           </div>
     

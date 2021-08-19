@@ -1,8 +1,5 @@
 import React from 'react'
 import "./Joinus.scss"
-import Contre from "../../../assets/contcre.jpg"
-import Instrc from "../../../assets/instructor.jpg"
-import Campusa from "../../../assets/campusA.jpg"
 const Joinus = () => {
     return (
         <>

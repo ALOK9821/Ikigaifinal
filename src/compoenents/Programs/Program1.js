@@ -1,5 +1,7 @@
 import React from 'react'
 import Button1 from '../../styled compponents/Buttons/Button1'
+import Degree from "../../assets/degree.png"
+import Job from "../../assets/job.png"
 import "./Program1.scss"
 const Program1 = () => {
     return (
@@ -19,7 +21,7 @@ Data and Analytics</h1>
           <h2>Best Online Learning Eperience</h2>
           <div className="online">
           <div className="learnholder">
-              <img src="https://img-premium.flaticon.com/png/512/1172/premium/1172011.png?token=exp=1629276315~hmac=1859a1031210bd4ca189f4161d09e746" alt="degree" />
+              <img src={Degree} alt="" />
               <h3>Earn A Degree</h3>
           </div>
           <div className="learnholder">
@@ -31,7 +33,7 @@ Data and Analytics</h1>
               <h3>Limited Number Of Seats</h3>
               </div>
               <div className="learnholder">
-              <img src="https://img-premium.flaticon.com/png/512/2691/premium/2691017.png?token=exp=1629277130~hmac=1c93c43c4914c2f14c60ce8d935776ef" alt="degree" />
+              <img src={Job} alt="degree" />
               <h3>100% Job Assitance</h3>
               </div>
           </div>
@@ -51,34 +53,38 @@ Data and Analytics</h1>
        <div className="programdetailsp1">
           <div className="firstprogramp1">
               <div className="leftsidep1">
-                  <img src="https://www.theikigailab.com/static/media/DataScienceSuper30-ikigai.4c2d25f1.jpg" alt="" />
+                  {/* <img src="https://www.theikigailab.com/static/media/DataScienceSuper30-ikigai.4c2d25f1.jpg" alt="" /> */}
               </div>
               <div className="rightsidep1">
                   
                   {/* <h3> Custom Made Programs</h3> */}
                   <h2> Data Science Super30</h2> <br />
-                  <p>-  Guaranteed Placement Offer of 5.5 Lakhs <br />
-                    - 6 Months Paid Internship <br />
-                     - 250+ Hours of Live Sessions <br />
-                      - Capstone Projects <br />
-                    - Pay 50% Fees at the begining of the course and rest 50% after getting the &nbsp;Data Scientist Job</p>
-                  <a href="#">Read More  </a>
+                  <p> <ul> 
+                    <li>Guaranteed Placement Offer of 5.5 Lakhs </li>  
+                    <li>6 Months Paid Internship</li>
+                   <li>250+ Hours of Live Sessions</li>
+                    <li>Capstone Projects</li>
+                     <li>Pay 50% Fees at the begining of the course and rest 50% after getting the  Data Scientist Job</li>
+                    </ul>
+                    </p>
+                  
               </div>
           </div>
           <div className="firstprogramp1">
           <div className="leftsidep1">
-                  <img src="https://www.theikigailab.com/static/media/DataScience-BootCamp-ikigailab.35ba9f12.jpg" alt="" />
+                  {/* <img src="https://www.theikigailab.com/static/media/DataScience-BootCamp-ikigailab.35ba9f12.jpg" alt="" /> */}
               </div>
           <div className="rightsidep1">
                   
                   {/* <h3>Outcome Based Learning</h3> */}
                   <h2>Data Science BootCamp</h2> <br />
-                  <p>60+ hours of Live Sessions <br />
-- Case Studies <br />
-- Certification on Completion <br />
-- The 6-week program <br />
-- Focused on implementing real data science case studies.</p>
-                  <a href="#">Read More  </a>
+                  <p> <ul><li>  60+ hours of Live Sessions</li>
+                  <li>Case Studies</li>
+                  <li>Certification on Completion</li>
+                  <li>The 6-week program</li>
+                  <li>Focused on implementing real data science case studies.</li>
+                  </ul>
+                  </p>
               </div>
              
               

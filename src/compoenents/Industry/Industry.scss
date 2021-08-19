@@ -122,9 +122,12 @@
             height: 60vh;
         }
         .rightside{
-            line-height: 2rem;
             width: 50%;
             text-align: left;
+            p{
+                line-height: 2rem;
+                margin-left: 3rem;
+            }
         }
     }
 }

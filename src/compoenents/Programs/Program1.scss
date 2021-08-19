@@ -34,6 +34,8 @@
         background-image: url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=702&q=80);
         background-blend-mode: lighten;
         opacity: 0.7;
+        background-blend-mode: screen;
+        border-radius: 1rem;
     }
 }
 // ------------Online learnigng section
@@ -128,9 +130,12 @@
             }
         }
         .rightsidep1{
-            line-height: 2rem;
             width: 50%;
             text-align: left;
+            p{
+                margin-left: 3rem;
+                line-height: 2rem;
+            }
         }
     }
 }
