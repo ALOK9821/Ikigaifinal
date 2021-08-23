@@ -5,6 +5,7 @@ import Job from "../../assets/job.png"
 import "./Program1.scss"
 import Asociate from '../Associations/Asociate'
 import Testimonials from "../Home/Testimonials/Testimonial"
+import Onlinelearn from './Onlinelearn'
 const Program1 = () => {
     return (
       <>
@@ -19,7 +20,7 @@ Data and Analytics</h1>
               
           </div>
       </div>
-      <div className="onlinelearn">
+      {/* <div className="onlinelearn">
           <h2>Best Online Learning Eperience</h2>
           <div className="online">
           <div className="learnholder">
@@ -40,7 +41,7 @@ Data and Analytics</h1>
               </div>
           </div>
          
-      </div>
+      </div> */}
            <div className="programdetailsp1">
           <div className="firstprogramp1">
               <div className="leftsidep1">
@@ -90,6 +91,8 @@ Data and Analytics</h1>
                   <p> <b>"</b> The course provides good balance of less theory and more practical. Trainers explained each and everything with daily related things.</p>
               </div>
           </div> */}
+            <Onlinelearn />
+
           <Testimonials />
           <div className="associationsp1">
                 <h1>We collaborate with Top leading <br /> Universities and Companies</h1>

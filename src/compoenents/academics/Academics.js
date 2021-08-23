@@ -1,6 +1,8 @@
 import React from 'react'
 import Button1 from '../../styled compponents/Buttons/Button1'
 import "./Academics.scss"
+import Acess from "../../assets/access.png"
+import Innov from "../../assets/innov.png"
 const Academics = () => {
     return (
         <>
@@ -85,7 +87,7 @@ leverage Web 3.0 in their teachings.</p>
 </p>
                </div>
                <div className="propertycard">
-                   <img src="https://img-premium.flaticon.com/png/512/2778/premium/2778901.png?token=exp=1629450760~hmac=9b6362e4a53916b38d5048fc46795739" alt="" />
+                   <img src={Acess} alt="" />
                    <h2>Accessible</h2>
                    <hr />
                    <br />
@@ -93,7 +95,7 @@ leverage Web 3.0 in their teachings.</p>
 education.</p>
                </div>
                <div className="propertycard">
-                   <img src="https://img-premium.flaticon.com/png/512/3058/premium/3058444.png?token=exp=1629450803~hmac=5d7e1397ab30ef4b208e06891af8a1f5" alt="" />
+                   <img src={Innov} alt="" />
                    <h2>Innovative</h2>
                    <hr />
                    <br />
