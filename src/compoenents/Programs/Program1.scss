@@ -16,6 +16,7 @@
         align-items: flex-start;
         padding-left: 4rem;
         h1{
+            font-size: 50px;
             color: white;
             text-align: left;
             margin-bottom: 2rem;
@@ -34,6 +35,8 @@
         background-image: url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=702&q=80);
         background-blend-mode: lighten;
         opacity: 0.7;
+        background-blend-mode: screen;
+        border-radius: 1rem;
     }
 }
 // ------------Online learnigng section
@@ -131,7 +134,32 @@
             line-height: 2rem;
             width: 50%;
             text-align: left;
+            h2{
+                font-size: 42px;
+                font-weight: 100;
+                font-family: 'Noto Serif', serif;
+            }
+            p{
+                margin-left: 2rem;
+                line-height: 1.5rem;
+                font-size: 15px;
+                font-family: 'Noto Serif', serif;
+
+            }
+            button{
+                padding: .7rem;
+                margin-top: 1rem;
+                background-color: #3485e4;
+                border: 1px solid #017a9b;
+                color: white;
+                width: 20%;
+                outline: none;
+                border-radius: 8px;
+                font-weight: 700;
+                letter-spacing: 1.5px;
+            }
         }
+
     }
 }
 // ------testimonials program1
@@ -144,7 +172,7 @@
     justify-content: center;
     align-items: center;
     .testcard{
-        height: 50%;
+        height: 60%;
         margin: 1rem;
         background-color:#202330;
         width: 30%;
@@ -188,5 +216,22 @@
             border: 2px solid rgba(0,151,251,0.25);
             box-shadow: 0px 4px 20px rgba(0,151,251,0.25);
         }
+    }
+}
+// associations
+.associationsp1{
+    background-color: #f5f8fa;
+    // margin-bottom: 2rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 40px;
+        font-weight: 100;
+        font-family: 'Noto Serif', serif;
+        // margin-bottom: 4rem;
+        padding-top: 4rem;
     }
 }

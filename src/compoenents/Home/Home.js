@@ -5,6 +5,7 @@ import "./Home.scss"
 import CardPanel from '../../styled compponents/Cards/CardPanel';
 import Testimonial from './Testimonials/Testimonial';
 import Joinus from '../Home/Joinus/Joinus';
+import Asociate from '../Associations/Asociate';
 const Home = () => {
     return (
         <>
@@ -29,7 +30,7 @@ const Home = () => {
             <CardPanel/>
             </div>
             <div className="propertiesh">
-              <h4>How Ikigai Lab is helping you <br /> to achieve your goals</h4>
+              <h4>How Ikigai Lab is helping you to achieve your goals</h4>
            <div className="propertycardholderh">
                <div className="propertycardh">
                    <h2>Industrial Case Studies</h2>
@@ -65,6 +66,10 @@ Academia Together</p>
           
             <div className="testi">
                 <Testimonial/>
+            </div>
+            <div className="associations">
+                <h1>We collaborate with Top leading Universities and Companies</h1>
+                <Asociate/>
             </div>
          
             <div className="js">

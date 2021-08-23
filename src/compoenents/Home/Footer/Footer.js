@@ -26,10 +26,6 @@ const Footer = () => {
         <p>andheri west</p>
         <p>mobilenumber</p>
         </a>
-            
-      <h3 className="desktop">New Business</h3>
-        <p className="desktop"><a href="#">engage@weareenvoy.com</a></p>
-        <p className="desktop"><a href="#">949.333.3106</a></p>
     </section>
             
     <section className="footer-item">

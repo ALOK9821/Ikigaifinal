@@ -6,17 +6,24 @@
 .container{
     width: 80%;
     margin: auto;
+    margin-top: 2rem;
 }
 /* start testimonails */
 .testim{
   position: relative;
-  background-color: #fff;
+  background-color: #f5f8fa;
   padding: 80px 60px;
 }
+.testim h1{
+  font-weight: 100;
+  font-size: 40px;
+  font-family: 'Noto Serif', serif;
+
+}
 .testim h2{
-  color: var(--main-color);
-  font-size: 2rem;
-  font-weight: bold;
+  color: black;
+  font-size: 1.75rem;
+    line-height: 36px;
 }
 .testim::before{
   position: absolute;
@@ -49,9 +56,12 @@ gap: 30px;
 
 .testim-box{
 z-index: 2;
-background-color: var(--secound-color);
+background-color: white;
+height: 43vh;
 padding: 20px 30px;
-
+ color: green;
+ border-bottom: 2px solid #5da9dc;
+  box-shadow: 5px 5px 25px 0 rgb(46 61 73 / 20%);
 }
 
 
@@ -68,16 +78,24 @@ padding: 20px 30px;
 }
 
 .testim-content h3{
-  color: #fff;
-  font-size: 1.3rem;
+  color: black;
+  border-top: 1px solid black;
+  margin-top: 3rem;
+  font-size: 1.75rem;
+  line-height: 36px;
+  font-weight: 300;
   }
   .testim-box > p{
-    color: rgb(209, 194, 194);
+    color: grey;
     font-style: italic;
     padding-bottom: 20px;
+    font-size: 1rem;
   }
 .testim-box-content p{
-color: var(--main-color);
+color: black;
+color: grey;
+font-weight: 500;
+
 }
 /* endtestimonails */
 /*----------------- media queries----------- */
@@ -91,7 +109,7 @@ color: var(--main-color);
   
 .testim-box{
   z-index: 2;
-  background-color: var(--secound-color);
+  background-color: white;
   width: 50vh;
   
   }

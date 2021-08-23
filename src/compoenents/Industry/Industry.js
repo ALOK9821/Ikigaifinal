@@ -4,7 +4,7 @@ import "./Industry.scss"
 const Industry = () => {
     return (
           <>
-        <div className="Academics">
+        <div className="Academicsi">
            {/* <div className="widecard">
            <img src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="mountains pic"/>
           </div> */}
@@ -134,9 +134,11 @@ your team!
                   
                   <h3> Custom Made Programs</h3>
                   <h2> Every Organization is different so our programs also. </h2> <br />
-                  <p> - We create programs to make your business more successful <br /> - Every company has its own unique workforce and needs. Ikigai Lab creates &nbsp;&nbsp; tailor-made 
- learning programs for each organization.</p>
-                  <a href="#">View  </a>
+                  <p> 
+                      <ul>
+                          <li>We create programs to make your business more successful</li>
+                          <li> Every company has its own unique workforce and needs. Ikigai Lab creates tailor-made learning programs for each organization.</li>
+                          </ul> </p>
               </div>
           </div>
           <div className="firstprogram">
@@ -144,8 +146,12 @@ your team!
                   
                   <h3>Outcome Based Learning</h3>
                   <h2>All the programs have specific learning outcomes.</h2> <br />
-                  <p>- Participants will be able to come up with the solutions for business &nbsp;&nbsp; Problems. <br /> - Participants will be able to come up with the real business use cases.</p>
-                  <a href="#">View  </a>
+                  <p> 
+                      <ul>
+                          <li> Participants will be able to come up with the solutions for business Problems.</li>
+                          <li> Participants will be able to come up with the real business use cases.</li>
+                      </ul> </p>
+                 
               </div>
               <div className="leftside">
                   
@@ -160,9 +166,11 @@ your team!
                   
                   <h3>Progress Reports</h3>
                   <h2> Improve the performance and learning by tracking their performances</h2> <br />
-                  <p> - See the overall results of the programs in a report <br />
-                  - Results of quizzes, assignments of all the participants on a regular basis</p>
-                  <a href="#">View </a>
+                  <p> <ul>
+                      <li>See the overall results of the programs in a report</li>
+                      <li> Results of quizzes, assignments of all the participants on a regular basis</li>
+                      </ul> 
+                  </p>
               </div>
           </div>
     

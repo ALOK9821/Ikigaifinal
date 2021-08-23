@@ -5,78 +5,140 @@
    justify-content: center;
    align-items: center;
   //  border: 2px solid black;
-   height: 90vh;
+   height: 60vh;
       h1{
         font-family: 'Noto Serif', serif;
         color: grey;
-        font-weight: bolder;
-        font-size: 40px;
-        font-weight: 500;
+        font-size: 20px;
+        font-weight: 700;
     }
     h2{
       font-family: 'Noto Serif', serif;
-      margin-bottom: 2.5rem; 
+      margin-top: .3rem; 
+      font-size: 40px;
+      font-weight: 100;
     }
-   
+    .jscards{
+      // border: 2px solid black;
+      height: 50vh;
+      width: 100%;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .jscc{
+        // border: 2px solid black;
+        width: 90%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .imgholder1{
+          width: 23%;
+          height: 80%;
+          // border: 2px solid black;
+          border-radius: 2rem;
+          background-image: url(../../../assets/contcre.jpg);
+          background-position: center;
+          background-size: cover;
+          // filter: brightness(50%);
+          background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../../../assets/contcre.jpg);
+          h2{
+            color: white;
+            font-size: 25px;
+            margin-top: 45%;
+          }
+        }
+        .imgholder2{
+          width: 23%;
+          height: 80%;
+          // border: 2px solid black;
+          border-radius: 2rem;
+          background-image: url(../../../assets/instructor.jpg);
+          background-position: center;
+          background-size: cover;
+          // filter: brightness(50%);
+          background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../../../assets/instructor.jpg);
+          h2{
+            color: white;
+            font-size: 25px;
+            margin-top: 45%;
+          }
+        }
+        .imgholder3{
+          width: 23%;
+          height: 80%;
+          // border: 2px solid black;
+          border-radius: 2rem;
+          background-image: url(../../../assets/campusA.jpg);
+          background-position: center;
+          background-size: cover;
+          // filter: brightness(50%);
+          background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(../../../assets/campusA.jpg);
+          h2{
+            color: white;
+            font-size: 25px;
+            margin-top: 45%;
+          }
+        }
+        .imgholder4{
+          width: 23%;
+          height: 80%;
+          // border: 2px solid black;
+          border-radius: 2rem;
+          background-image: url(https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+          background-position: center;
+          background-size: cover;
+          // filter: brightness(50%);
+          background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url(https://images.unsplash.com/photo-1606761568499-6d2451b23c66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80);
+          h2{
+            color: white;
+            font-size: 25px;
+            margin-top: 45%;
+          }
+        }
+      }
+    }
     
 }
-.cards-list {
-    z-index: 0;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #fff;
-    // border: 2px solid black;
-  }
-  
-  .card {
-    margin: 10px ;
-    width: 300px;
-    height: 300px;
-    // border-radius: 35px;
-  // box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
-    cursor: pointer;
-    transition: 0.4s;
-    
-  }
-  
-  .card .card_image {
-    width: inherit;
-    height: inherit;
-    border-radius: 40px;
-    
-  }
-  
-  .card .card_image img {
-    width: 310px;
-    height: 210px;
-    // border-radius: 15px;
-    object-fit: contain;
-    // border: 2px solid black;
-    // opacity: 0.8;
-    // z-index: 0;
-  }
-  
-  .card .card_title {
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 400;
-    opacity: 1;
-    z-index: 2;
-    position: inherit;
-    font-size: 30px;
-    color: white;
-    margin-top: -9rem;
-  }
-  
- 
-  
-  @media all and (max-width: 500px) {
-    .card-list {
-      flex-direction: column;
+@media (max-width:500px){
+  .joinus{
+    height: 140vh;
+    // background-color: cyan;
+    h2{
+      font-size: 20px;
+      margin-top: 0rem;
     }
+    justify-content: space-evenly;
+    .jscards{
+      height: 250vh;
+      .jscc{
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-evenly;
+        // background-color: aqua;
+        .imgholder1{
+          width: 80%;
+          height: 20%;
+          background-color: black;
+        }
+        .imgholder2{
+          width: 80%;
+          height: 20%;
+          background-color: black;
+        }
+        .imgholder3{
+          width: 80%;
+          height: 20%;
+          background-color: black;
+        }
+        .imgholder4{
+          width: 80%;
+          height: 20%;
+          background-color: black;
+        }
+      }
+    }
+   
   }
-  
-  
- 
+}

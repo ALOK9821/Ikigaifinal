@@ -25,20 +25,28 @@
     // background-position: center center;  
     h1{
         font-family: 'Noto Serif', serif;
-        color: rgb(164, 152, 86);
-        font-size: 48px;
+        color: white;
+        font-size: 72px;
         // text-shadow: 2px 8px 40px #3485e4;
+    }
+    @media (max-width:800px){
+        h1{
+            font-size: 25px;
+        }
     }
     .typed-text{
         font-size: 45px;
         font-family: 'Noto Serif', serif;
     }
 }
+
 // property cards-----------------------------------------
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .propertiesh{
     // border: 2px solid white;
-    height: 62vh;
+    height: 70vh;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -46,8 +54,9 @@
     align-items: center;
     h4{
         font-size: 40px;
-        font-weight: lighter;
-        
+        font-weight: 100;
+        font-family: 'Noto Serif', serif;
+        margin-bottom: -0.7rem;
     }
     .propertycardholderh{
         // border: 2px solid white;
@@ -59,7 +68,7 @@
         .propertycardh{
            background-color: white;
             // border: 2px solid black;
-            height: 90%;
+            height: 75%;
             width: 24%;
             border-radius: .5rem;
             text-align: left;
@@ -74,24 +83,76 @@
            }
          
            p{
-               font-size: 20px;
+               font-size: 16px;
                color: grey;
-               font-weight: 200;
-               font-family: 'Playfair Display', serif;
+               font-weight: 700;
+               font-family: 'Roboto', sans-serif;
            }
         }
     }
 }
-
+@media (max-width:500px){
+    .propertiesh{
+        height: 200vh;
+        // background-color: rebeccapurple;
+        h4{
+            font-size: 18px;
+            font-weight: lighter;
+        }
+        .propertycardholderh{
+            flex-direction: column;
+            width: 90%;
+            margin-top: 1rem;
+            justify-content: space-evenly;
+            .propertycardh{
+                width: 85%;
+                height: 25%;
+                margin-top: .5rem;
+                h2{
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #269fb1;
+                }
+              
+                p{
+                    font-size: 15px;
+                    color: grey;
+                    font-weight: 200;
+                }
+            }
+           
+            
+        }
+    }
+    
+}
 
 // media query
 
-@media (max-width:500px){
+@media (max-width:700px){
     .infocards{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         height: 120rem;
+    }
+    .carp{
+        height: 100vh;
+    }
 }
+// associations
+.associations{
+    background-color: white;
+    // margin-bottom: 2rem;
+    height: 60vh;
+  
+    h1{
+        font-size: 40px;
+        font-weight: 100;
+        font-family: 'Noto Serif', serif;
+        margin-bottom: 4rem;
+        padding-top: 2rem;
+    }
+    
 }
