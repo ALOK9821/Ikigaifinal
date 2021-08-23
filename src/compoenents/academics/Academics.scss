@@ -15,32 +15,23 @@
     color: #F0F5FF;
     // border: 2px solid white;
     h1{
-        font-size: 48px;
+        font-size: 72px;
         // text-shadow: 0px 0px 20px #3485e4;
     }
     p{
         font-size: 20px;
     }
 }
-/* -----------------------------Features------------------------------------------------- */
-
-
- .feature{
-    //   background: #F0F5FF;
-    background-color: #0d101e;
-  display:flex;
-     height:100vh;
-     flex-direction:column;
-     justify-content:center;
-      align-items:center;
- }
-/* -----------card3 body-------------------- */
-.card3holder{
-    height: 90vh;
-    background-color: #F0F5FF;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+@media (max-width: 500px){
+   .Academics{
+       h1{
+           font-size: 24px;
+       }
+       p{
+           font-size: 15px;
+       }
+   }
+    
 }
 // ----------------------Card4-----------------------------------------
 .widecard{
@@ -90,22 +81,50 @@
              border-radius: 1rem;
              text-align: left;
              h3{
-                 font-size: 25px;
-                 
+                font-size: 24px;
+        font-weight: 100;
+        font-family: 'Noto Serif', serif;
              }
              p{
-                 font-size: 15px;
+                font-size: 14px;
+        font-weight: 100;
+        font-family: 'Noto Serif', serif;
              }
         }
       
 }
+@media (max-width: 500px){
+    .programnames{
+        height: 130vh;
+        // border: 2px solid white;
+        .progholder{
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            .programcard{
+                width: 100%;
+                height: 10%;
+                height: fit-content;
+                h3{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+        
+    }
+}
 
 // --------------------program details--------------------------------
-.programdetails{
+.programdetailasa{
     background-color: #0d101e;
     color: white;
     h2{
-        font-weight: 600;
+    font-weight: 600;
     line-height: 1;
     letter-spacing: -0.02em;
     }
@@ -113,7 +132,7 @@
         font-size: 20px;
         margin-top: .8rem;
     }
-    .firstprogram{
+    .firstprograma{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -131,8 +150,48 @@
         }
     }
 }
+@media (max-width:500px){
+    .programdetailasa{
+        // border: 2px solid white;
+        height: 300vh;
+        justify-content: center;
+        align-items: center;
+        h2{
+            font-weight: 400;
+            line-height: 1;
+            letter-spacing: -0.02em;
+            }
+            p{
+                font-size: 15px;
+                margin-top: .2rem;
+            }
+        .firstprograma{
+        // border: 2px solid white;
+        width: 100%;
+        height: 60%;
+            flex-direction: column;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .leftside{
+                // width: 100%;
+                display: none;
+            }
+            .rightside{
+               border: 2px solid white;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+                width: 100%;
+                height: 50%;
+                text-align: center;
+            }
+        }
+    }
+}
 // -----------------join now----------------------------------------------
-.joinnow{
+.joinnowa{
     background-color: #0d101e;
     color: white;
     height: 40vh;
@@ -158,9 +217,22 @@
         }
     }
 }
+@media (max-width:500px){
+    .joinnowa{
+        h1{
+            line-height: 20px;
+            font-size: 18px;
+            font-weight: 400;
+         }
+         button{
+             width: 100%
+         }
+    }
+}
 // propersties section---------------------------------
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 .properties{
     // border: 2px solid white;
     height: 60vh;
@@ -179,26 +251,45 @@
         //    background-color: white;
         background-color:#202330;
             // border: 2px solid black;
-            height: 90%;
+            height: 95%;
             width: 24%;
             border-radius: .5rem;
             text-align: left;
            padding: 2rem;
         //    border-bottom: 5px solid #73c4fa;
         border-bottom: 1px solid whitesmoke;
+        img{
+            width: 2.5rem;
+            height: 2.5rem;
+        }
            h2{
-               font-size: 25px;
-               line-height: 45px;
-               font-family: 'Roboto', sans-serif;
-               color: white;
+              color: white;
+                font-size: 25px;
+        font-weight: 100;
+        font-family: 'Noto Serif', serif;
+             
            }
          
            p{
-               font-size: 20px;
-               color: white;
-               font-weight: 200;
-               font-family: 'Playfair Display', serif;
+               font-size: 16px;
+               color: rgba(255,255,255,0.64);
+               font-weight: 300;
+               font-family: 'IBM Plex Sans', sans-serif;
+               line-height: 1.5;
            }
+        }
+    }
+}
+@media (max-width: 500px){
+    .properties{
+        height: 180vh;
+        border: 2px solid white;
+        .propertycardholder{
+            flex-direction: column;
+            justify-content: space-evenly;
+            .propertycard{
+                width: 100%;
+            }
         }
     }
 }
@@ -244,6 +335,20 @@
         }
         h6{
             font-size: 25px;
+        }
+    }
+}
+@media (max-width: 500px){
+    .stats{
+        height: 100vh;
+        .statcontent{
+            flex-direction: column;
+            h1{
+                font-size: 30px;
+            }
+            h6{
+                font-size: 20px;
+            }
         }
     }
 }

@@ -4,7 +4,7 @@ import "./Industry.scss"
 const Industry = () => {
     return (
           <>
-        <div className="Academics">
+        <div className="Academicsi">
            {/* <div className="widecard">
            <img src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="mountains pic"/>
           </div> */}

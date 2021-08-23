@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Blog.scss"
+import Ourblogs from './Ourblogs'
 const Blog = () => {
     return (
         <>
-           <div className="blogbody">
+         <div className="blogbody">
                <h4>Blogs Title / heading</h4>
                <div className="headblog">
                    <div className="headleft">
@@ -197,7 +198,10 @@ const Blog = () => {
               
 
                      <br /> <br />
+                     
          </div>
+         
+          
         </>
     )
 }

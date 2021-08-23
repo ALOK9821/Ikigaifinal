@@ -24,3 +24,8 @@
        border-top: 2px solid gold;
    }
 }
+@media (max-width:500px){
+    .nbarcontent{
+        display: none;
+    }
+}

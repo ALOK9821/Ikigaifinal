@@ -5,9 +5,7 @@ const Academics = () => {
     return (
         <>
         <div className="Academics">
-           {/* <div className="widecard">
-           <img src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="mountains pic"/>
-          </div> */}
+          
           <div>
             <h1>Skills and Applied Research Ecosystem </h1><br /> <br />
            <p> Unleash the potential of your students and faculty
@@ -18,9 +16,7 @@ const Academics = () => {
             </div>
          
         </div>
-        {/* <div className="cardholder">
-          <Timeline/>
-        </div> */}
+       
       
       <div className="programnames">
           <div className="progholder">
@@ -81,6 +77,7 @@ leverage Web 3.0 in their teachings.</p>
           <div className="properties">
            <div className="propertycardholder">
                <div className="propertycard">
+                   <img src="https://image.flaticon.com/icons/png/512/1925/1925161.png" alt="" />
                    <h2>Transformative</h2>
                   <hr />
                    <br />
@@ -88,6 +85,7 @@ leverage Web 3.0 in their teachings.</p>
 </p>
                </div>
                <div className="propertycard">
+                   <img src="https://img-premium.flaticon.com/png/512/2778/premium/2778901.png?token=exp=1629450760~hmac=9b6362e4a53916b38d5048fc46795739" alt="" />
                    <h2>Accessible</h2>
                    <hr />
                    <br />
@@ -95,6 +93,7 @@ leverage Web 3.0 in their teachings.</p>
 education.</p>
                </div>
                <div className="propertycard">
+                   <img src="https://img-premium.flaticon.com/png/512/3058/premium/3058444.png?token=exp=1629450803~hmac=5d7e1397ab30ef4b208e06891af8a1f5" alt="" />
                    <h2>Innovative</h2>
                    <hr />
                    <br />
@@ -103,17 +102,18 @@ even the Ikigai Lab website.
 </p>
                </div>
                <div className="propertycard">
+                   <img src="https://image.flaticon.com/icons/png/512/2942/2942821.png" alt="" />
                    <h2> Job Ready</h2>
                    <hr />
                    <br />
-                   <p>students are able to enter the market of new technologies with an in-demand skill set 
+                   <p>Students are able to enter the market of new technologies with an in-demand skill set 
 that will make them stand out from the crowd.</p>
                </div>
            </div>
        </div>
       
-      <div className="programdetails">
-          <div className="firstprogram">
+      <div className="programdetailasa">
+          <div className="firstprograma">
               <div className="leftside">
                   
               </div>
@@ -126,7 +126,7 @@ opportunity to immediately put theoretical knowledge into practice. Students do 
 industrial case studies.</p>
               </div>
           </div>
-          <div className="firstprogram">
+          <div className="firstprograma">
           <div className="rightside">
                   
                   {/* <h5>case study</h5> */}
@@ -140,7 +140,7 @@ field of AI and Deep Learning. Training is available in the form of live instruc
               </div>
               
           </div>
-          <div className="firstprogram">
+          <div className="firstprograma">
               <div className="leftside">
                   
               </div>
@@ -154,7 +154,7 @@ translation. Academics should lead industry</p>
           </div>
     
       </div>
-       <div className="joinnow">
+       <div className="joinnowa">
            <h1>Find out how Ikigai Lab can help you <br /> in creating skill and applied research ecosystem <br /> at your 
 institution.</h1>
            <br /><br />
