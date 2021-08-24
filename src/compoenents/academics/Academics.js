@@ -51,7 +51,7 @@ leverage Web 3.0 in their teachings.</p>
           </div>
           </div>
      
-       <div className="stats">
+       {/* <div className="stats">
           
            <div className="statcontent">
                <div className="statdata">
@@ -75,7 +75,7 @@ leverage Web 3.0 in their teachings.</p>
                    <h6>some data</h6>
                </div>
            </div>
-        </div>    
+        </div>     */}
           <div className="properties">
            <div className="propertycardholder">
                <div className="propertycard">
