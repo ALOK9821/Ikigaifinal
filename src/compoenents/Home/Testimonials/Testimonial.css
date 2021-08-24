@@ -4,7 +4,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: 2rem;
 }
@@ -13,10 +13,11 @@
   position: relative;
   background-color: #f5f8fa;
   padding: 80px 60px;
+  height: 100vh;
 }
 .testim h1{
   font-weight: 100;
-  font-size: 40px;
+  font-size: 48px;
   font-family: 'Noto Serif', serif;
 
 }
@@ -57,7 +58,7 @@ gap: 30px;
 .testim-box{
 z-index: 2;
 background-color: white;
-height: 43vh;
+height: 45vh;
 padding: 20px 30px;
  color: green;
  border-bottom: 2px solid #5da9dc;
