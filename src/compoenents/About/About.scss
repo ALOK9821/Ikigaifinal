@@ -12,11 +12,14 @@
     background-color: #f1f1f1;
    
 .about-section{
-    background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
+    // background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
+    background: url(https://images.unsplash.com/photo-1536148935331-408321065b18?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNvZGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
     // padding: 50px 0;
+    background-repeat: no-repeat;
+    object-fit: cover;
     
 .inner-container{
     width: 55%;
@@ -73,8 +76,11 @@
 }
 // mission--------------------
 .mission{
-    background-image: linear-gradient(45deg, #7175da, #9790F2);
-	font-family: 'Muli', sans-serif;
+    // background-image: linear-gradient(45deg, #7175da, #9790F2);
+    // background: hsl(210, 46%, 95%);
+    background-color: white;
+    font-family: 'Noto Serif', serif;
+	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -82,13 +88,16 @@
 	min-height: 100vh;
 	margin: 0;
     h1{
-        color: white;
+        color: black;
         font-size: 48px;
+        font-family: 'Noto Serif', serif;
+        font-weight: 300;
     }
 .course {
 	background-color: #fff;
 	border-radius: 10px;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	// box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	display: flex;
 	max-width: 100%;
 	margin: 20px;
@@ -141,11 +150,71 @@
 }
 // leadership.-----------------
 .leadership{
-    background-color: white;
     h1{
         font-family: 'Noto Serif', serif;
         font-size: 45px;
         font-weight: 300;
     }
+    background-color: #E7E9F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 65rem;
+    .leaders{
+        background-color: #E7E9F0;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          height: 60rem;
+.card {
+    padding: 50px 32px;
+    background: #fff;
+    width: 23%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    // border: 2px solid black;
+    .user {
+        &-avatar {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        &-type {
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding: 5px 20px;
+            margin-top: 16px;
+            font-weight: 500;
+            border-radius: 6px;
+            background: var(--secondary);
+            color: var(--primary);
+        }
+
+        &-name {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 6px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        &-job__title {
+            color: var(--primary);
+            font-size: 15px;
+
+        }
+
+    }
+}
+        }
+  
+
+
    
 }
