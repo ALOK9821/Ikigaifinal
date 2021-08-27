@@ -1,0 +1,61 @@
+.tesiholderind{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f8fa;
+    // border: 2px solid black;
+    h1,h3,p{
+      font-family: "Noto-sans";
+    }
+   .testcontind{
+    //  border: 2px solid black;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+     width: 70%;
+     height: 90%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 2rem;
+     .cardcontind{
+       width: 100%;
+       padding: 5rem;
+       .carddataind{
+        // border: 2px solid black;
+       border-radius: 2rem;
+       border: 2px solid blue;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 9rem;
+        padding-right: 9rem;
+        height: 60vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        transition: 0.4s;
+        &:hover{
+          border: 4px solid cyan;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+         }
+        p{
+          color: grey;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 1.9rem;
+          // border: 2px solid black;
+          font-style: italic;
+          height: 50%;
+        }
+        h3{
+          border-top: 1px solid black;
+          font-size:25px ;
+        }
+       }
+      
+     }
+   }
+  }

@@ -4,9 +4,9 @@ import Degree from "../../assets/degree.png"
 import Job from "../../assets/job.png"
 import "./Program1.scss"
 import Asociate from '../Associations/Asociate'
-import Testimonials from "../Home/Testimonials/Testimonial"
 import Onlinelearn from './Onlinelearn'
 import Propcard from './Propcard'
+import Progtest from './Progtest'
 const Program1 = () => {
     return (
       <>
@@ -57,7 +57,7 @@ Data and Analytics</h1>
             <Onlinelearn />
             <Propcard />
 
-          <Testimonials />
+          <Progtest />
           <div className="associationsp1">
                 <h1>We collaborate with Top leading <br /> Universities and Companies</h1>
                 <Asociate/>
