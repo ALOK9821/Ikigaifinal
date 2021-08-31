@@ -117,7 +117,7 @@ that will make them stand out from the crowd.</p>
       <div className="programdetailasa">
           <div className="firstprograma">
               <div className="leftside">
-                  
+                  <img src="https://images.unsplash.com/photo-1521999693742-4717d76f97cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80" alt="" />
               </div>
               <div className="rightside">
                   
@@ -138,13 +138,13 @@ field of AI and Deep Learning. Training is available in the form of live instruc
                  
               </div>
               <div className="leftside">
-                  
+                  <img src="https://images.unsplash.com/photo-1581092336206-b9e5146be6f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" />
               </div>
               
           </div>
           <div className="firstprograma">
               <div className="leftside">
-                  
+                  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" />
               </div>
               <div className="rightside">
                   

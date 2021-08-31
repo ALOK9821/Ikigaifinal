@@ -19,10 +19,42 @@ const Progtest = () => {
           <h1>Testimonials</h1>
          <div className="testcontind">
            <Swiper 
-           spaceBetween={50}
-           slidesPerView={1}
+           spaceBetween={0}
+           slidesPerView={3}
            navigation
-           pagination>
+           >
+             <SwiperSlide>
+               <div className="cardcontind">
+                 <div className="carddataind">
+                 <p> Thank you for conducting one day program on Artificial Intelligence (AI) to our top management executives. The program has been conducted excellently.</p>
+              <div className="testname">
+              <h3>P.Subrahmanyam CGM (Corporate Planning)</h3>
+              </div>
+             
+                 </div>
+                
+               </div>
+             </SwiperSlide>
+             
+              <SwiperSlide>
+               <div className="cardcontind">
+                 <div className="carddataind">
+                 <p>It was an amazing class where we learnt the practical aspect of AI & ML.The lectures were wonderful and thoughtfully organized in a way to present it to the industry.</p>
+              <h3>Dr. Manish Kumar Srivastava (G.M.)</h3>
+                 </div>
+                
+               </div>
+             </SwiperSlide>
+             <SwiperSlide>
+               <div className="cardcontind">
+                 <div className="carddataind">
+                 <p> 
+ The course provides good balance of less theory and more practical. Trainers explained each and everything with daily related things. Nice explain of each concepts.</p>
+              <h3>Shweta Dharik</h3>
+                 </div>
+                
+               </div>
+             </SwiperSlide>
              <SwiperSlide>
                <div className="cardcontind">
                  <div className="carddataind">

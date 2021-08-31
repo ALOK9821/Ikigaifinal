@@ -128,7 +128,7 @@ your team!
       <div className="programdetails">
           <div className="firstprogram">
               <div className="leftside">
-                  
+                  <img src="https://images.pexels.com/photos/6476254/pexels-photo-6476254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
               </div>
               <div className="rightside">
                   
@@ -154,13 +154,13 @@ your team!
                  
               </div>
               <div className="leftside">
-                  
+                  <img src="https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="" />
               </div>
               
           </div>
           <div className="firstprogram">
               <div className="leftside">
-                  
+                  <img src="https://images.pexels.com/photos/8353802/pexels-photo-8353802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
               </div>
               <div className="rightside">
                   
