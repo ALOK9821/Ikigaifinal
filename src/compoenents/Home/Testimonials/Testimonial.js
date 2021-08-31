@@ -91,6 +91,15 @@ scratch with friends in a classroom feels exciting as well as pushes up to learn
                 
                </div>
              </SwiperSlide>
+             <SwiperSlide>
+             <div className="cardcont">
+                 <div className="carddata">
+                 <p>My experience for this course has been great. The trainers we had for whole machine learning training were very good and helpful. They solved all our queries.we just did not learn machine learning but also different tools like Tableau and excel.your program provided us the knowledge in every field and tools we must be know to become a good Data scientist .Iam glad I joined this program.</p>
+              <h3>Priyanka</h3>
+                 </div>
+                
+               </div>
+             </SwiperSlide>
              
            </Swiper>
          </div>
