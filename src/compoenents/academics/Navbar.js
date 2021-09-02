@@ -12,8 +12,10 @@ const Navbar = () => {
                   <li> <Link to="/" style={{textDecoration:"none",color:"white"}} >Home </Link></li> 
                     <Link to="/academics" style={{textDecoration:"none",color:"white"}} ><li>Academics </li></Link>
                     <li> <Link to="/industry" style={{textDecoration:"none",color:"white"}} >Industry </Link></li> 
-                    <li> <Link to="/program1" style={{textDecoration:"none",color:"white"}} >Program1 </Link> </li>
+                    <li> <Link to="/program1" style={{textDecoration:"none",color:"white"}} >Individual </Link> </li>
                     <li> <Link to="/blog" style={{textDecoration:"none",color:"white"}} >Blog </Link> </li>
+                  <li> <Link to="/about" style={{textDecoration:"none",color:"white"}} >Leadership </Link> </li>
+
                 </ul>
             </div>
         </>

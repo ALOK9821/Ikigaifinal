@@ -7,6 +7,7 @@ import {BrowserRouter as Router,Switch,Link,Route} from "react-router-dom"
 import Program1 from "./compoenents/Programs/Program1";
 import Blog from "./compoenents/Blog/Blog";
 import Ourblogs from "./compoenents/Blog/Ourblogs";
+import About from "./compoenents/About/About";
 function App() {
   return (
     <>
@@ -19,6 +20,8 @@ function App() {
         <Route path="/industry" component={Industry} />
         <Route path="/program1" component={Program1} />
         <Route path="/blog" component={Ourblogs} />
+        <Route path="/about" component={About} />
+
       </Switch>
    
     {/* <Academics/> */}

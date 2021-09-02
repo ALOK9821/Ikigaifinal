@@ -4,7 +4,9 @@ import Degree from "../../assets/degree.png"
 import Job from "../../assets/job.png"
 import "./Program1.scss"
 import Asociate from '../Associations/Asociate'
-import Testimonials from "../Home/Testimonials/Testimonial"
+import Onlinelearn from './Onlinelearn'
+import Propcard from './Propcard'
+import Progtest from './Progtest'
 const Program1 = () => {
     return (
       <>
@@ -19,7 +21,7 @@ Data and Analytics</h1>
               
           </div>
       </div>
-      <div className="onlinelearn">
+      {/* <div className="onlinelearn">
           <h2>Best Online Learning Eperience</h2>
           <div className="online">
           <div className="learnholder">
@@ -40,47 +42,9 @@ Data and Analytics</h1>
               </div>
           </div>
          
-      </div>
-           <div className="programdetailsp1">
-          <div className="firstprogramp1">
-              <div className="leftsidep1">
-                  {/* <img src="https://www.theikigailab.com/static/media/DataScienceSuper30-ikigai.4c2d25f1.jpg" alt="" /> */}
-              </div>
-              <div className="rightsidep1">
-                  
-                  {/* <h3> Custom Made Programs</h3> */}
-                  <h2> Data Science Super30</h2> <br />
-                  <p>-  Guaranteed Placement Offer of 5.5 Lakhs <br />
-                    - 6 Months Paid Internship <br />
-                     - 250+ Hours of Live Sessions <br />
-                      - Capstone Projects <br />
-                    - Pay 50% Fees at the begining of the course and rest 50% after getting the &nbsp;Data Scientist Job <br />
-                    <a href="#"><button>Know More</button>  </a> </p>
-                  
-              </div>
-          </div>
-          <div className="firstprogramp1">
-          <div className="leftsidep1">
-                  {/* <img src="https://www.theikigailab.com/static/media/DataScience-BootCamp-ikigailab.35ba9f12.jpg" alt="" /> */}
-              </div>
-          <div className="rightsidep1">
-                  
-                  {/* <h3>Outcome Based Learning</h3> */}
-                  <h2>Data Science BootCamp</h2> <br />
-                  <p>60+ hours of Live Sessions <br />
-- Case Studies <br />
-- Certification on Completion <br />
-- The 6-week program <br />
-- Focused on implementing real data science case studies. <br />
-<a href="#"><button>Know More</button>  </a>
- </p>
-                  
-              </div>
-             
-              
-          </div>
-          </div>
-         {/* <div className="testp1">
+      </div> */}
+     
+        {/* <div className="testp1">
               <div className="testcard">
                   <h1>Jaskaran Singh Sandhu</h1>
                   <p> <b>"</b> I am really learning a lot and feel like I am ahead of the curve. The teachers at THEIKIGAILAB are great, explaining everything in an understandable way. I am really getting into coding and feel great about my future in a new way.</p>
@@ -90,7 +54,10 @@ Data and Analytics</h1>
                   <p> <b>"</b> The course provides good balance of less theory and more practical. Trainers explained each and everything with daily related things.</p>
               </div>
           </div> */}
-          <Testimonials />
+            <Onlinelearn />
+            <Propcard />
+
+          <Progtest />
           <div className="associationsp1">
                 <h1>We collaborate with Top leading <br /> Universities and Companies</h1>
                 <Asociate/>

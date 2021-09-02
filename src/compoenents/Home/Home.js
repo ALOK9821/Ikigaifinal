@@ -64,9 +64,8 @@ Academia Together</p>
        </div>
       
           
-            <div className="testi">
+          
                 <Testimonial/>
-            </div>
             <div className="associations">
                 <h1>We collaborate with Top leading Universities and Companies</h1>
                 <Asociate/>

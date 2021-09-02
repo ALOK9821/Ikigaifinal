@@ -1,6 +1,8 @@
 import React from 'react'
 import Button1 from '../../styled compponents/Buttons/Button1'
 import "./Academics.scss"
+import Acess from "../../assets/access.png"
+import Innov from "../../assets/innov.png"
 const Academics = () => {
     return (
         <>
@@ -49,7 +51,7 @@ leverage Web 3.0 in their teachings.</p>
           </div>
           </div>
      
-       <div className="stats">
+       {/* <div className="stats">
           
            <div className="statcontent">
                <div className="statdata">
@@ -73,7 +75,7 @@ leverage Web 3.0 in their teachings.</p>
                    <h6>some data</h6>
                </div>
            </div>
-        </div>    
+        </div>     */}
           <div className="properties">
            <div className="propertycardholder">
                <div className="propertycard">
@@ -85,7 +87,7 @@ leverage Web 3.0 in their teachings.</p>
 </p>
                </div>
                <div className="propertycard">
-                   <img src="https://img-premium.flaticon.com/png/512/2778/premium/2778901.png?token=exp=1629450760~hmac=9b6362e4a53916b38d5048fc46795739" alt="" />
+                   <img src={Acess} alt="" />
                    <h2>Accessible</h2>
                    <hr />
                    <br />
@@ -93,7 +95,7 @@ leverage Web 3.0 in their teachings.</p>
 education.</p>
                </div>
                <div className="propertycard">
-                   <img src="https://img-premium.flaticon.com/png/512/3058/premium/3058444.png?token=exp=1629450803~hmac=5d7e1397ab30ef4b208e06891af8a1f5" alt="" />
+                   <img src={Innov} alt="" />
                    <h2>Innovative</h2>
                    <hr />
                    <br />
@@ -115,7 +117,7 @@ that will make them stand out from the crowd.</p>
       <div className="programdetailasa">
           <div className="firstprograma">
               <div className="leftside">
-                  
+                  <img src="https://images.unsplash.com/photo-1521999693742-4717d76f97cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80" alt="" />
               </div>
               <div className="rightside">
                   
@@ -136,13 +138,13 @@ field of AI and Deep Learning. Training is available in the form of live instruc
                  
               </div>
               <div className="leftside">
-                  
+                  <img src="https://images.unsplash.com/photo-1581092336206-b9e5146be6f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" />
               </div>
               
           </div>
           <div className="firstprograma">
               <div className="leftside">
-                  
+                  <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" />
               </div>
               <div className="rightside">
                   

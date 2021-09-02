@@ -19,7 +19,7 @@
         // text-shadow: 0px 0px 20px #3485e4;
     }
     p{
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 @media (max-width: 500px){
@@ -86,7 +86,7 @@
         font-family: 'Noto Serif', serif;
              }
              p{
-                font-size: 14px;
+                font-size: 16px;
         font-weight: 100;
         font-family: 'Noto Serif', serif;
              }
@@ -141,7 +141,11 @@
             width: 40%;
             background-color:#202330;
             border: 2px solid #73c4fa;
-            height: 60vh;
+            height: 56vh;
+            img{
+                max-width:100%;
+                max-height:100%;
+            }
         }
         .rightside{
             line-height: 2rem;
